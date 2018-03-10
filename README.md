@@ -4,5 +4,8 @@
 
 ## Usage
 
-TODO
+```sh
+$ docker run dtannock/wkhtmltopdf
+$ docker run -v $PWD:/tmp/ dtannock/wkhtmltopdf http://www.google.com /tmp/output.pdf
+```
 
